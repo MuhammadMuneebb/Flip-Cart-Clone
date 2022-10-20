@@ -10,6 +10,21 @@ header{
     background: var(--main-bg-color);
 }
 
+nav{
+  display: flex;
+
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  width: 88px;
+    padding: 0 25px;
+}
+
 nav ul{
   height: 58px;
 display: flex;
@@ -24,6 +39,10 @@ nav ul li{
 nav ul li a{
   color: white;
   text-decoration: none;
+}
+
+.container{
+min-height: calc(100vh - 58px - 12vh);
 }
 
 footer{
