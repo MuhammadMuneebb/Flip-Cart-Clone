@@ -41,6 +41,22 @@ nav ul li a{
   text-decoration: none;
 }
 
+nav ul li a:hover{
+  font-weight: bold;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+}
+
+.search input{
+  width: 493px;
+  height: 27px;
+  border-radius: 5px;
+  margin: 0 16px 0 56px;
+}
+
 .container{
 min-height: calc(100vh - 58px - 12vh);
 }
