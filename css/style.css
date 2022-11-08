@@ -55,6 +55,11 @@ nav ul li a:hover{
   height: 27px;
   border-radius: 5px;
   margin: 0 16px 0 56px;
+  padding:0 12px;
+
+}
+.search button{
+font-weight: 900;
 }
 
 .container{
